@@ -1,0 +1,26 @@
+Linked Issues:  
+
+1. Improper Error Handling in API Routes  
+2. Cross-Origin Resource Sharing (CORS) Issues
+
+---
+
+Why These Issues Were Chosen:  
+
+1. Improper Error Handling in API Routes:  
+   - Relevance to the Milestone:  
+     A robust migration plan requires identifying potential errors during API interactions between on-premise systems and cloud services. Without proper error handling, undetected issues in API routes can lead to data loss, inconsistencies, or failed migrations during the actual implementation phase.
+   - Contribution to the Milestone:  
+     Fixing error handling ensures that error scenarios are captured and documented during the migration plan creation. Clear handling mechanisms provide actionable insights for risk mitigation strategies and contingency planning, making the migration plan reliable.
+
+2. Cross-Origin Resource Sharing (CORS) Issues:  
+   - Relevance to the Milestone:  
+     CORS configuration is critical when integrating cloud services (e.g., AWS S3) with the application during migration. Misconfigured CORS policies can block essential API calls, making data transfer impossible or inefficient during testing phases.
+   - Contribution to the Milestone:  
+     Resolving CORS issues enables smoother testing and data transfer simulations as part of the migration plan. Including these solutions in the finalized plan reduces the risk of mid-process interruptions caused by blocked requests.
+
+---
+
+How They Together Advance the Milestone:  
+
+Both issues directly address technical challenges that could disrupt or derail the migration process. By linking them to the Migration Plan Finalization, they ensure the plan is comprehensive, accounting for both communication reliability (CORS) and fault tolerance (error handling). Resolving these issues aligns the project for seamless execution when transitioning to the cloud.
